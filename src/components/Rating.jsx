@@ -43,7 +43,7 @@ const Rating = () => {
                             <h1>Игрок {result.user_id}</h1>
                             <h1>Кол-во очков {result.points} за {result.time} секунд</h1>
                             <h1 className='mt-5'>({result.speed} очков в секунду)</h1>
-                            <h1 className='mt-7'>Дата создания {Date.parse(result.created_at)}</h1>
+                            <h1 className='mt-7'>Дата создания {result.created_at}</h1>
                         </div>
                     </div>
                 ))
